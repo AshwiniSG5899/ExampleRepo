@@ -45,15 +45,12 @@ public class BaseClass {
 	{
 		System.out.println("Configuration setup started");
 	}
-	@Parameters("browser")
+	//@Parameters("browser")
 	@BeforeClass
-	public void beforeClass(String browser) throws IOException
+	public void beforeClass() throws IOException
 	{
-		String Browser=browser;
+		String Browser=fLib.getDataFromPropFile("browser");
 		System.out.println("Launch the browser");
-		
-//		String BROWSER = fLib.getDataFromPropFile("browser");
-		
 		if(Browser.equalsIgnoreCase("chrome"))
 		{
 			driver=new ChromeDriver();
