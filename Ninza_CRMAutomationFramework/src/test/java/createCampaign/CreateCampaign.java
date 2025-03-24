@@ -28,7 +28,7 @@ import genericJavaUtility.JavaUtility;
 public class CreateCampaign {
 
 	@Test
-	public void createCampaignWithoutDate() throws EncryptedDocumentException, IOException, InterruptedException {
+	public void createCampaignWithoutDateTest() throws EncryptedDocumentException, IOException, InterruptedException {
 		PropertiesFileUtility pro=new PropertiesFileUtility();
 		String BROWSER = pro.readDataFromPropFile("browser");
 		String URL = pro.readDataFromPropFile("url");
@@ -97,7 +97,7 @@ public class CreateCampaign {
 	}
 	
 	@Test
-	public void createCampaignWithDate() throws IOException, InterruptedException
+	public void createCampaignWithDateTest() throws IOException, InterruptedException
 	{
 		PropertiesFileUtility pro=new PropertiesFileUtility();
 		String BROWSER = pro.readDataFromPropFile("browser");
