@@ -74,7 +74,7 @@ public class createContactWithCampaign extends BaseClass{
        String ConfirmationMsg = driver.findElement(By.xpath("//div[text()='Contact "+contactName+" Successfully Added']")).getText();
        boolean status = ConfirmationMsg.contains(contactName);
        Assert.assertEquals(status, true);
-       Thread.sleep(10000);
+       Thread.sleep(5000);
        
        
 //      

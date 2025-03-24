@@ -61,7 +61,7 @@ public class CreateCompaignTest extends BaseClass{
 		String confMsg = driver.findElement(By.xpath("//div[text()='Campaign "+campaignName+" Successfully Added']")).getText();
       boolean status = confMsg.contains(campaignName);
       Assert.assertTrue(status);
-       Thread.sleep(10000);
+       Thread.sleep(5000);
       
 		
 	}
@@ -87,11 +87,11 @@ public class CreateCompaignTest extends BaseClass{
 		cp.getCreateCampaignBtn().click();
 		createCampaignPage ccp=new createCampaignPage(driver);
 		ccp.createCampaignWithCloseDate(campaignName, targetSize, closeDate);
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		String confMsg = driver.findElement(By.xpath("//div[text()='Campaign "+campaignName+" Successfully Added']")).getText();
 		boolean status = confMsg.contains(campaignName);
 	      Assert.assertTrue(status);
-        Thread.sleep(10000);
+        Thread.sleep(5000);
         
         
 
