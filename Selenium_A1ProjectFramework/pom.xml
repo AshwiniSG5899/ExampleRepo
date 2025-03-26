@@ -35,8 +35,19 @@
     <version>8.3.0</version>
 </dependency>
 
-
-
-
-  </dependencies>
+</dependencies>
+  <build>
+  <plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.2</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>batch.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+ </plugins>
+  </build>
 </project>
