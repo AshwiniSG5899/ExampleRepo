@@ -1,301 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-20T12:54:33 IST" name="Suite" finished-at="2025-03-20T12:55:57 IST" duration-ms="83939">
+  <suite started-at="2025-03-26T11:36:53 IST" name="Suite" finished-at="2025-03-26T11:38:09 IST" duration-ms="76085">
     <groups>
       <group name="SmokeTest">
-        <method signature="CreateCompaignTest.createCampaignWithoutDate()[pri:0, instance:CompaignTestCases.CreateCompaignTest@73eb439a]" name="createCampaignWithoutDate" class="CompaignTestCases.CreateCompaignTest"/>
-        <method signature="CreateCompaignTest.createCampaignWithoutDate()[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" name="createCampaignWithoutDate" class="CompaignTestCases.CreateCompaignTest"/>
+        <method signature="CreateCompaignTest.createCampaignWithoutDate()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" name="createCampaignWithoutDate" class="CompaignTestCases.CreateCompaignTest"/>
+        <method signature="LoginTest.loginTest()[pri:0, instance:LoginTestcase.LoginTest@35841320]" name="loginTest" class="LoginTestcase.LoginTest"/>
       </group> <!-- SmokeTest -->
       <group name="RegressionTest">
-        <method signature="CreateCompaignTest.createCampaignWithCloseDate()[pri:0, instance:CompaignTestCases.CreateCompaignTest@73eb439a]" name="createCampaignWithCloseDate" class="CompaignTestCases.CreateCompaignTest"/>
-        <method signature="createContactWithCampaign.createContactWithCam()[pri:0, instance:contactTestCases.createContactWithCampaign@35841320]" name="createContactWithCam" class="contactTestCases.createContactWithCampaign"/>
-        <method signature="CreateCompaignTest.createCampaignWithCloseDate()[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" name="createCampaignWithCloseDate" class="CompaignTestCases.CreateCompaignTest"/>
-        <method signature="createContactWithCampaign.createContactWithCam()[pri:0, instance:contactTestCases.createContactWithCampaign@14fc5f04]" name="createContactWithCam" class="contactTestCases.createContactWithCampaign"/>
+        <method signature="CreateCompaignTest.createCampaignWithCloseDate()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" name="createCampaignWithCloseDate" class="CompaignTestCases.CreateCompaignTest"/>
+        <method signature="createContactWithCampaign.createContactWithCam()[pri:0, instance:contactTestCases.createContactWithCampaign@7ae0a9ec]" name="createContactWithCam" class="contactTestCases.createContactWithCampaign"/>
       </group> <!-- RegressionTest -->
     </groups>
-    <test started-at="2025-03-20T12:54:33 IST" name="Test_edge" finished-at="2025-03-20T12:55:57 IST" duration-ms="83813">
-      <class name="CompaignTestCases.CreateCompaignTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" started-at="2025-03-20T12:54:33 IST" name="beforeSuite" finished-at="2025-03-20T12:54:33 IST" duration-ms="18" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" started-at="2025-03-20T12:54:33 IST" name="beforeTest" finished-at="2025-03-20T12:54:33 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" started-at="2025-03-20T12:54:33 IST" name="beforeClass" finished-at="2025-03-20T12:54:38 IST" duration-ms="4670" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-03-26T11:36:53 IST" name="Test" finished-at="2025-03-26T11:38:09 IST" duration-ms="76085">
+      <class name="LoginTestcase.LoginTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:LoginTestcase.LoginTest@35841320]" started-at="2025-03-26T11:37:58 IST" name="beforeClass" finished-at="2025-03-26T11:38:01 IST" duration-ms="3010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" started-at="2025-03-20T12:54:38 IST" name="beforeMethod" finished-at="2025-03-20T12:54:41 IST" duration-ms="2934" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:LoginTestcase.LoginTest@35841320]" started-at="2025-03-26T11:38:01 IST" name="beforeMethod" finished-at="2025-03-26T11:38:03 IST" duration-ms="2758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createCampaignWithCloseDate()[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" started-at="2025-03-20T12:54:41 IST" name="createCampaignWithCloseDate" finished-at="2025-03-20T12:55:01 IST" duration-ms="19887" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:LoginTestcase.LoginTest@35841320]" started-at="2025-03-26T11:38:03 IST" name="loginTest" finished-at="2025-03-26T11:38:08 IST" duration-ms="4102" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createCampaignWithCloseDate -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" started-at="2025-03-20T12:55:01 IST" name="afterMethod" finished-at="2025-03-20T12:55:01 IST" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" started-at="2025-03-20T12:55:01 IST" name="beforeMethod" finished-at="2025-03-20T12:55:02 IST" duration-ms="1680" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="createCampaignWithoutDate()[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" started-at="2025-03-20T12:55:02 IST" name="createCampaignWithoutDate" finished-at="2025-03-20T12:55:20 IST" duration-ms="17730" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createCampaignWithoutDate -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" started-at="2025-03-20T12:55:20 IST" name="afterMethod" finished-at="2025-03-20T12:55:20 IST" duration-ms="92" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:LoginTestcase.LoginTest@35841320]" started-at="2025-03-26T11:38:08 IST" name="afterMethod" finished-at="2025-03-26T11:38:08 IST" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" started-at="2025-03-20T12:55:20 IST" name="afterClass" finished-at="2025-03-20T12:55:21 IST" duration-ms="872" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:LoginTestcase.LoginTest@35841320]" started-at="2025-03-26T11:38:08 IST" name="afterClass" finished-at="2025-03-26T11:38:09 IST" duration-ms="1493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" started-at="2025-03-20T12:55:57 IST" name="afterTest" finished-at="2025-03-20T12:55:57 IST" duration-ms="0" status="PASS">
+      </class> <!-- LoginTestcase.LoginTest -->
+      <class name="CompaignTestCases.CreateCompaignTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" started-at="2025-03-26T11:36:53 IST" name="beforeSuite" finished-at="2025-03-26T11:36:53 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" started-at="2025-03-26T11:36:53 IST" name="beforeTest" finished-at="2025-03-26T11:36:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" started-at="2025-03-26T11:36:53 IST" name="beforeClass" finished-at="2025-03-26T11:36:57 IST" duration-ms="4100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" started-at="2025-03-26T11:36:57 IST" name="beforeMethod" finished-at="2025-03-26T11:36:59 IST" duration-ms="2084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createCampaignWithCloseDate()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" started-at="2025-03-26T11:36:59 IST" name="createCampaignWithCloseDate" finished-at="2025-03-26T11:37:12 IST" duration-ms="12964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignWithCloseDate -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" started-at="2025-03-26T11:37:12 IST" name="afterMethod" finished-at="2025-03-26T11:37:13 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" started-at="2025-03-26T11:37:13 IST" name="beforeMethod" finished-at="2025-03-26T11:37:15 IST" duration-ms="2318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createCampaignWithoutDate()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" started-at="2025-03-26T11:37:15 IST" name="createCampaignWithoutDate" finished-at="2025-03-26T11:37:28 IST" duration-ms="12842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignWithoutDate -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" started-at="2025-03-26T11:37:28 IST" name="afterMethod" finished-at="2025-03-26T11:37:28 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" started-at="2025-03-26T11:37:28 IST" name="afterClass" finished-at="2025-03-26T11:37:29 IST" duration-ms="1481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" started-at="2025-03-26T11:38:09 IST" name="afterTest" finished-at="2025-03-26T11:38:09 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:CompaignTestCases.CreateCompaignTest@33ecda92]" started-at="2025-03-20T12:55:57 IST" name="afterSuite" finished-at="2025-03-20T12:55:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:CompaignTestCases.CreateCompaignTest@19932c16]" started-at="2025-03-26T11:38:09 IST" name="afterSuite" finished-at="2025-03-26T11:38:09 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- CompaignTestCases.CreateCompaignTest -->
       <class name="contactTestCases.createContactWithCampaign">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:contactTestCases.createContactWithCampaign@14fc5f04]" started-at="2025-03-20T12:55:21 IST" name="beforeClass" finished-at="2025-03-20T12:55:25 IST" duration-ms="3925" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:contactTestCases.createContactWithCampaign@7ae0a9ec]" started-at="2025-03-26T11:37:29 IST" name="beforeClass" finished-at="2025-03-26T11:37:32 IST" duration-ms="2872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:contactTestCases.createContactWithCampaign@14fc5f04]" started-at="2025-03-20T12:55:25 IST" name="beforeMethod" finished-at="2025-03-20T12:55:29 IST" duration-ms="3605" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:contactTestCases.createContactWithCampaign@7ae0a9ec]" started-at="2025-03-26T11:37:32 IST" name="beforeMethod" finished-at="2025-03-26T11:37:35 IST" duration-ms="2379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createContactWithCam()[pri:0, instance:contactTestCases.createContactWithCampaign@14fc5f04]" started-at="2025-03-20T12:55:29 IST" name="createContactWithCam" finished-at="2025-03-20T12:55:56 IST" duration-ms="27085" status="PASS">
+        <test-method signature="createContactWithCam()[pri:0, instance:contactTestCases.createContactWithCampaign@7ae0a9ec]" started-at="2025-03-26T11:37:35 IST" name="createContactWithCam" finished-at="2025-03-26T11:37:56 IST" duration-ms="21665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContactWithCam -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:contactTestCases.createContactWithCampaign@14fc5f04]" started-at="2025-03-20T12:55:56 IST" name="afterMethod" finished-at="2025-03-20T12:55:56 IST" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:contactTestCases.createContactWithCampaign@7ae0a9ec]" started-at="2025-03-26T11:37:56 IST" name="afterMethod" finished-at="2025-03-26T11:37:56 IST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:contactTestCases.createContactWithCampaign@14fc5f04]" started-at="2025-03-20T12:55:56 IST" name="afterClass" finished-at="2025-03-20T12:55:57 IST" duration-ms="1090" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:contactTestCases.createContactWithCampaign@7ae0a9ec]" started-at="2025-03-26T11:37:56 IST" name="afterClass" finished-at="2025-03-26T11:37:58 IST" duration-ms="1406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- contactTestCases.createContactWithCampaign -->
-    </test> <!-- Test_edge -->
-    <test started-at="2025-03-20T12:54:33 IST" name="Test_firefox" finished-at="2025-03-20T12:55:57 IST" duration-ms="83939">
-      <class name="CompaignTestCases.CreateCompaignTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:CompaignTestCases.CreateCompaignTest@73eb439a]" started-at="2025-03-20T12:54:33 IST" name="beforeTest" finished-at="2025-03-20T12:54:33 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:CompaignTestCases.CreateCompaignTest@73eb439a]" started-at="2025-03-20T12:54:33 IST" name="beforeClass" finished-at="2025-03-20T12:54:39 IST" duration-ms="5604" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:CompaignTestCases.CreateCompaignTest@73eb439a]" started-at="2025-03-20T12:54:39 IST" name="beforeMethod" finished-at="2025-03-20T12:54:43 IST" duration-ms="4468" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="createCampaignWithCloseDate()[pri:0, instance:CompaignTestCases.CreateCompaignTest@73eb439a]" started-at="2025-03-20T12:54:43 IST" name="createCampaignWithCloseDate" finished-at="2025-03-20T12:55:02 IST" duration-ms="18477" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createCampaignWithCloseDate -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CompaignTestCases.CreateCompaignTest@73eb439a]" started-at="2025-03-20T12:55:02 IST" name="afterMethod" finished-at="2025-03-20T12:55:02 IST" duration-ms="260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:CompaignTestCases.CreateCompaignTest@73eb439a]" started-at="2025-03-20T12:55:02 IST" name="beforeMethod" finished-at="2025-03-20T12:55:04 IST" duration-ms="1801" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="createCampaignWithoutDate()[pri:0, instance:CompaignTestCases.CreateCompaignTest@73eb439a]" started-at="2025-03-20T12:55:04 IST" name="createCampaignWithoutDate" finished-at="2025-03-20T12:55:22 IST" duration-ms="18082" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createCampaignWithoutDate -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CompaignTestCases.CreateCompaignTest@73eb439a]" started-at="2025-03-20T12:55:22 IST" name="afterMethod" finished-at="2025-03-20T12:55:22 IST" duration-ms="15" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, findElement {value=//*[name()='svg' and @role='img'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0, moz:accessibilityChecks: false, moz:buildID: 20241121140525, moz:debuggerAddress: 127.0.0.1:41792, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22716, moz:profile: C:\Users\QSP-AS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:41792/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, findElement {value=//*[name()='svg' and @role='img'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0, moz:accessibilityChecks: false, moz:buildID: 20241121140525, moz:debuggerAddress: 127.0.0.1:41792, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22716, moz:profile: C:\Users\QSP-AS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:41792/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at ObjectRepository.dashboardPage.logout(dashboardPage.java:54)
-at GenericBaseClassUtility.BaseClass.afterMethod(BaseClass.java:108)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1570)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:CompaignTestCases.CreateCompaignTest@73eb439a]" started-at="2025-03-20T12:55:22 IST" name="afterClass" finished-at="2025-03-20T12:55:22 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:CompaignTestCases.CreateCompaignTest@73eb439a]" started-at="2025-03-20T12:55:57 IST" name="afterTest" finished-at="2025-03-20T12:55:57 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- CompaignTestCases.CreateCompaignTest -->
-      <class name="contactTestCases.createContactWithCampaign">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:contactTestCases.createContactWithCampaign@35841320]" started-at="2025-03-20T12:55:22 IST" name="beforeClass" finished-at="2025-03-20T12:55:27 IST" duration-ms="4930" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:contactTestCases.createContactWithCampaign@35841320]" started-at="2025-03-20T12:55:27 IST" name="beforeMethod" finished-at="2025-03-20T12:55:30 IST" duration-ms="3599" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="createContactWithCam()[pri:0, instance:contactTestCases.createContactWithCampaign@35841320]" started-at="2025-03-20T12:55:30 IST" name="createContactWithCam" finished-at="2025-03-20T12:55:57 IST" duration-ms="26621" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContactWithCam -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:contactTestCases.createContactWithCampaign@35841320]" started-at="2025-03-20T12:55:57 IST" name="afterClass" finished-at="2025-03-20T12:55:57 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:contactTestCases.createContactWithCampaign@35841320]" started-at="2025-03-20T12:55:57 IST" name="afterMethod" finished-at="2025-03-20T12:55:57 IST" duration-ms="0" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, findElement {value=//*[name()='svg' and @role='img'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0, moz:accessibilityChecks: false, moz:buildID: 20241121140525, moz:debuggerAddress: 127.0.0.1:38037, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 37848, moz:profile: C:\Users\QSP-AS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:38037/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, findElement {value=//*[name()='svg' and @role='img'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0, moz:accessibilityChecks: false, moz:buildID: 20241121140525, moz:debuggerAddress: 127.0.0.1:38037, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 37848, moz:profile: C:\Users\QSP-AS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:38037/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at ObjectRepository.dashboardPage.logout(dashboardPage.java:54)
-at GenericBaseClassUtility.BaseClass.afterMethod(BaseClass.java:108)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1570)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- contactTestCases.createContactWithCampaign -->
-    </test> <!-- Test_firefox -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

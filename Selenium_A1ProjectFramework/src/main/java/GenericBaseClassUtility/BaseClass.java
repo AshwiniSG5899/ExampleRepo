@@ -49,7 +49,8 @@ public class BaseClass {
 	@BeforeClass
 	public void beforeClass() throws IOException
 	{
-		String Browser=fLib.getDataFromPropFile("browser");
+		//String Browser=fLib.getDataFromPropFile("browser");
+		String Browser=System.getProperty("browser");
 		System.out.println("Launch the browser");
 		if(Browser.equalsIgnoreCase("chrome"))
 		{
@@ -76,9 +77,11 @@ public class BaseClass {
 	public void beforeMethod() throws IOException
 	{
 		System.out.println("Login");
+//		String UN = fLib.getDataFromPropFile("uname");
+//		String PWD = fLib.getDataFromPropFile("pwd");
 		String URL = fLib.getDataFromPropFile("url");
-		String UN = fLib.getDataFromPropFile("uname");
-		String PWD = fLib.getDataFromPropFile("pwd");
+		String UN = System.getProperty("uname");
+		String PWD = System.getProperty("psw");
 		driver.get(URL);
 		LoginPage lp=new LoginPage(driver);
 		lp.login(UN, PWD);
