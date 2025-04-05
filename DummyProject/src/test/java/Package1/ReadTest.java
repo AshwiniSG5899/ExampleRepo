@@ -2,7 +2,7 @@ package Package1;
 
 import org.testng.annotations.Test;
 
-public class Testcase2 {
+public class ReadTest {
 
 	@Test
 	public void WriteTest()
